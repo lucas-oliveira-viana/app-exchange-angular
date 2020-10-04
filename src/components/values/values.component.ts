@@ -10,16 +10,16 @@ export interface PeriodicElement {
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
-  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.62, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.61, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.60, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.04},
-  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.04},
+  {name: `Dólar Comercial (USD)`, high: 5.63, low: 5.59, var: 0.7},
+  {name: `Dólar Turismo (USDT)`, high: 5.82, low: 5.75, var: 0.7},
+  {name: `Dólar Canadense (CAD)`, high: 4.27, low: 4.21, var: 0.56},
+  {name: `Euro (EUR)`, high: 6.66, low: 6.57, var: 0.43},
+  {name: `Libra Esterlina (GBP)`, high: 7.36, low: 7.24, var: 1.12},
+  {name: `Peso Argentino (ARS)`, high: 0.07, low: 0.07, var: -0.27},
+  {name: `Bitcoin (BTC)`, high: 60497.7, low: 59900, var: 2.8},
+  {name: `Iene Japonês (JPY)`, high: 0.05, low: 0.05, var: 0.00},
+  {name: `Yuan Chinês (CNY)`, high: 0.83, low: 0.83, var: 0.00},
+  {name: `Ethereum (ETH)`, high: 6480, low: 6480, var: 0.00},
 ];
 
 @Component({

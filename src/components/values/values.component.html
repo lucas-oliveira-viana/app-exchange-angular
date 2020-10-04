@@ -6,17 +6,17 @@
         </ng-container>
 
         <ng-container matColumnDef="high">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header class="head__item"> Alta </th>
+          <th mat-header-cell *matHeaderCellDef mat-sort-header class="head__item"> Alta (R$) </th>
           <td mat-cell *matCellDef="let element"> {{ element.high.toFixed(2) }} </td>
         </ng-container>
       
         <ng-container matColumnDef="low">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header class="head__item"> Baixa </th>
+          <th mat-header-cell *matHeaderCellDef mat-sort-header class="head__item"> Baixa (R$) </th>
           <td mat-cell *matCellDef="let element"> {{ element.low.toFixed(2) }} </td>
         </ng-container>
 
         <ng-container matColumnDef="var">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header class="head__item"> Variação </th>
+          <th mat-header-cell *matHeaderCellDef mat-sort-header class="head__item"> Variação (%) </th>
           <td mat-cell *matCellDef="let element"> {{ element.var.toFixed(2) }} </td>
         </ng-container>
       
