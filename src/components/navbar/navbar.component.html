@@ -1,0 +1,18 @@
+<div class="navbar__wrapper">
+    <div class="wrapper__top">
+        <div class="top__logo">
+            <img class="logo__img" src="../../assets/coin-stack_1.png">
+            <h1 class="logo__title logo__item">EXCHANGE.IO</h1>
+        </div>
+        <div class="top__sandwich" (click)="options = !options">
+            <div class="sandwich__item sandwich__item_1"></div>
+            <div class="sandwich__item sandwich__item_2"></div>
+            <div class="sandwich__item sandwich__item_3"></div>
+        </div>
+    </div>
+    <ul class="options__list" [ngClass]="options ? 'options__list_show' : 'options__list_hide'">
+        <li class="list__item list__item_about">Início</li>
+        <li class="list__item list__item__contact">Conversão Direta</li>
+        <li class="list__item list__item__news">Notícias</li>
+    </ul>
+</div>
