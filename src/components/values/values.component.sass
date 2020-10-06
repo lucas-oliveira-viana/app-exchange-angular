@@ -2,6 +2,30 @@
 
 $table-tr-border-radius: 4px
 
+.table
+    &__line
+        height: 60px
+        background-color: #360068
+
+    &__line td
+        color: white
+        padding: 5px
+        text-align: center
+        font-size: 13px
+
+td
+    &:first-child 
+        border-top-left-radius: $table-tr-border-radius
+
+    &:last-child 
+        border-top-right-radius: $table-tr-border-radius
+
+    &:first-child 
+        border-bottom-left-radius: $table-tr-border-radius
+
+    &:last-child 
+        border-bottom-right-radius: $table-tr-border-radius
+
 .values__table
     width: 100%
     box-shadow: none
@@ -12,31 +36,8 @@ $table-tr-border-radius: 4px
 td, th
     border-bottom-width: 0!important
 
-.table__line
-    height: 60px
-    background-color: #360068
-
-.table__line td
-    color: white
-    padding: 5px
-    text-align: center
-    font-size: 13px
-
 .head__item
     color: white
 
 .home__values
     margin: 0 25px
-
-
-td:first-child 
-    border-top-left-radius: $table-tr-border-radius
-
-td:last-child 
-    border-top-right-radius: $table-tr-border-radius
-
-td:first-child 
-    border-bottom-left-radius: $table-tr-border-radius
-
-td:last-child 
-    border-bottom-right-radius: $table-tr-border-radius

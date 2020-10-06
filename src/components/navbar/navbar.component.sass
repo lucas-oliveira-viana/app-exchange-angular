@@ -2,20 +2,37 @@
 
 $default-color: white
 
-.navbar__title
-    margin: 0
-    margin-top: auto
-    margin-bottom: auto
+.navbar
+    &__title
+        margin: 0
+        margin-top: auto
+        margin-bottom: auto
 
-.navbar__wrapper
-    font-family: 'Roboto', sans-serif
-    color: $default-color
+    &__wrapper
+        font-family: 'Roboto', sans-serif
+        color: $default-color
 
-.sandwich__item
-    width: 19px
-    height: 4px
-    background-color: $default-color
-    margin: 3px 0
+.options
+    &__list
+        list-style-type: none
+        margin: 0
+        padding: 0
+        margin-top: auto
+        margin-bottom: auto
+        display: none
+        flex-direction: column
+        align-items: center
+        position: absolute
+        display: flex
+        z-index: 10
+        background-color: #190031
+        width: 100%
+        overflow: hidden
+        transition: all .5s
+        height: 0px
+
+    &__list_show
+        height: 105px
 
 .wrapper__top
     display: flex
@@ -23,26 +40,11 @@ $default-color: white
     align-items: center
     padding: 25px
 
-.options__list
-    list-style-type: none
-    margin: 0
-    padding: 0
-    margin-top: auto
-    margin-bottom: auto
-    display: none
-    flex-direction: column
-    align-items: center
-    position: absolute
-    display: flex
-    z-index: 10
-    background-color: #190031
-    width: 100%
-    overflow: hidden
-    transition: all .5s
-    height: 0px
-
-.options__list_show
-    height: 105px
+.sandwich__item
+    width: 19px
+    height: 4px
+    background-color: $default-color
+    margin: 3px 0
 
 .list__item
     cursor: pointer
