@@ -1,5 +1,7 @@
 @import "../../styles/shared/vars"
 
+$table-tr-border-radius: 4px
+
 .values__table
     width: 100%
     box-shadow: none
@@ -25,3 +27,16 @@ td, th
 
 .home__values
     margin: 0 25px
+
+
+td:first-child 
+    border-top-left-radius: $table-tr-border-radius
+
+td:last-child 
+    border-top-right-radius: $table-tr-border-radius
+
+td:first-child 
+    border-bottom-left-radius: $table-tr-border-radius
+
+td:last-child 
+    border-bottom-right-radius: $table-tr-border-radius
